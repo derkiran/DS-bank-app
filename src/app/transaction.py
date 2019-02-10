@@ -3,8 +3,6 @@ import time
 import random
 
 
-
-
 class Transaction:
     def __init__(self, *, sender, recipient, subject, amount, transaction_ID ):
         assert isinstance(transaction_ID, int), 'Sender needs to be an integer'
