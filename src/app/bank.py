@@ -29,7 +29,8 @@ class Bank:
         recipient.add_to_balance(amount)
         return self.transactions[-1]
 
-for number, account in bank.accounts.items():
+def account_info(self, account.info)
+    for number, account in bank.accounts.items():
     print(account.info())
 
 for transaction in bank.transactions:
